@@ -1,17 +1,35 @@
-
-
-
-.lmj-footer {
-	color: black;
+.lmj-cart {
+	color: white;
+	background-color: #31b572;
 	padding: 32px;
-	border-top: solid 3px black;
 	display: flex;
-	justify-content: flex-start;
 	flex-direction: column;
-	align-items: center;
-	font-weight: 500;
+	justify-content: flex-start;
+	width: 300px;
 }
 
-.lmj-footer-elem {
-	margin-bottom: 10px;
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	align-self: flex-end;
+}
+
+.lmj-cart-closed {
+	padding: 32px;
+	width: 300px;
+}
+
+.lmj-cart-closed > button {
+	color: black;
 }
