@@ -1,4 +1,5 @@
 import Banner from './Banner.js';
+import Footer from './Footer.js';
 import logo from '../assets/logo.png';
 // import Cart from './Cart.js';
 import ShoppingList from './ShoppingList.js';
@@ -14,6 +15,7 @@ function App() {
 			{/* <Cart /> */}
       
 			<ShoppingList />
+			<Footer />
 		</div>
 	)
 }
