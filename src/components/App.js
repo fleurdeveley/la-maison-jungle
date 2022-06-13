@@ -1,8 +1,9 @@
 import Banner from './Banner.js';
-import Footer from './Footer.js';
 import logo from '../assets/logo.png';
-// import Cart from './Cart.js';
+import Cart from './Cart.js';
+import Footer from './Footer.js';
 import ShoppingList from './ShoppingList.js';
+import '../styles/Layout.css';
 
 function App() {
 	return (
@@ -12,9 +13,12 @@ function App() {
 				<h1 className='lmj-title'>La maison jungle</h1>
 			</Banner>
 
-			{/* <Cart /> */}
-      
-			<ShoppingList />
+			<div>
+				<Cart />      
+				<ShoppingList />
+			</div>
+
+
 			<Footer />
 		</div>
 	)
